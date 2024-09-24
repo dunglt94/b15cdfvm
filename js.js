@@ -5,7 +5,7 @@ function toMeters(Feet) {
         result.innerHTML = "";
         return;
     }
-    Feet = toM.value * 0.305;
+    Feet = toMeters.value * 0.305;
     result.innerHTML = `${Feet} m`;
 }
 
