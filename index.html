@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Chuyển đổi giữa feet và meters</title>
+</head>
+<body>
+<p>
+    <label for="FeetToMeters">Feet sang Meters: </label>
+    <input type="number" name="Feet sang Meters" id="FeetToMeters" placeholder="Feet"
+            oninput="toMeters()" onchange="toMeters()">
+</p>
+<p>Kết quả: <span id="result1"></span></p>
+<p>
+    <label for="MetersToFeet">Meters sang Feet: </label>
+    <input type="number" name="Meters sang Feet" id="MetersToFeet" placeholder="Meters"
+           oninput="toFeet()" onchange="toFeet ()">
+</p>
+<p>Kết quả: <span id="result2"></span></p>
+
+
+
+<script src="js.js"></script>
+</body>
+</html>
